@@ -1,5 +1,7 @@
 #include<stdio.h>
 /**
+ *main - Entry point
+ *Return: Always 0 (Success)
  *this function display a text
  */
 int main(void)
