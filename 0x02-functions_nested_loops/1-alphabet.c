@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "unistd.h"
 
 /**
  * print_alphabet - Prints the alphabet in lowercase.
@@ -11,12 +11,8 @@ void print_alphabet(void)
 
 	for (i = 97; i <= 122; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
-int main(void)
-{
-	print_alphabet();
-	return(0);
-}
+
