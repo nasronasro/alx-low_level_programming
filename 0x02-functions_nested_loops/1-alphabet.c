@@ -5,13 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	Print_alphabet();
-	return (0);
-}
-
-void Print_alphabet(void)
+void print_alphabet(void)
 {
 	int c = 97
 	int i 
@@ -20,4 +14,9 @@ void Print_alphabet(void)
 		putchar(c);
 	}	
 	putchar('\n');
+}
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
